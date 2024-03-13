@@ -21,24 +21,19 @@
   <buildtool_depend>ament_cmake</buildtool_depend>
   <buildtool_depend>ament_cmake_vendor_package</buildtool_depend>
 
-  <depend>libeigen3-dev</depend>
+  <depend>eigen</depend>
   <depend>libccd-dev</depend>
   <depend>libfcl-dev</depend>
-  <depend>libbullet-dev</depend>
-  <depend>libode-dev</depend>
-  <depend>libassimp-dev</depend>
-  <depend>freeglut3-dev</depend>
-  <depend>libxi-dev</depend>
-  <depend>libxmu-dev</depend>
-  <depend>libflann-dev</depend>
-  <depend>libtinyxml2-dev</depend>
+  <depend>bullet</depend>
+  <depend>opende</depend>
+  <depend>assimp</depend>
+  <depend>tinyxml2</depend>
   <depend>liburdfdom-dev</depend>
   <depend>libboost-dev</depend>
   <depend>libboost-system-dev</depend>
   <depend>libboost-regex-dev</depend>
-  <depend>liboctomap-dev</depend>
-  <depend>libopenthreads-dev</depend>
-  <depend>liblz4-dev</depend>
+  <depend>octomap</depend>
+  <depend>lz4</depend>
 
   <test_depend>ament_cmake_xmllint</test_depend>
   <test_depend>ament_lint_auto</test_depend>
