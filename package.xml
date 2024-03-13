@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<?xml-model
+  href="http://download.ros.org/schema/package_format2.xsd"
+  schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
+  <name>gazebo_dart_vendor</name>
+  <version>6.13.1</version>
+  <description>
+    Vendor package for the DART physics engine
+  </description>
+
+  <maintainer email="addisu@intrinsic.ai">Addisu Taddese</maintainer>
+
+  <license>Apache License 2.0</license>  <!-- the contents of this package are Apache 2.0 -->
+  <license>BSD-2</license>  <!-- DART is BSD-2 (https://dartsim.github.io/license.html) -->
+
+  <url type="website">https://dartsim.github.io/</url>
+
+  <author email="addisu@intrinsic.ai">Addisu Taddese</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_vendor_package</buildtool_depend>
+
+  <depend>libeigen3-dev</depend>
+  <depend>libccd-dev</depend>
+  <depend>libfcl-dev</depend>
+  <depend>libbullet-dev</depend>
+  <depend>libode-dev</depend>
+  <depend>libassimp-dev</depend>
+  <depend>freeglut3-dev</depend>
+  <depend>libxi-dev</depend>
+  <depend>libxmu-dev</depend>
+  <depend>libflann-dev</depend>
+  <depend>libtinyxml2-dev</depend>
+  <depend>liburdfdom-dev</depend>
+  <depend>libboost-dev</depend>
+  <depend>libboost-system-dev</depend>
+  <depend>libboost-regex-dev</depend>
+  <depend>liboctomap-dev</depend>
+  <depend>libopenthreads-dev</depend>
+  <depend>liblz4-dev</depend>
+
+  <test_depend>ament_cmake_xmllint</test_depend>
+  <test_depend>ament_lint_auto</test_depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
