@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(gazebo_dartsim_vendor)
+project(gz_dartsim_vendor)
 
 find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_vendor_package REQUIRED)
