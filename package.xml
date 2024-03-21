@@ -32,7 +32,9 @@
   <depend>libboost-dev</depend>
   <depend>libboost-system-dev</depend>
   <depend>libboost-regex-dev</depend>
-  <depend>octomap</depend>
+  <!-- Octomap is an optional dependency. There seems to be an issue resolving
+    this key on the ROS buildfarm, so disabling it for now -->
+  <!-- <depend>octomap</depend> -->
   <depend>lz4</depend>
 
   <test_depend>ament_cmake_xmllint</test_depend>
