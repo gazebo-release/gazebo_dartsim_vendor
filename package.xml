@@ -4,9 +4,16 @@
   schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="2">
   <name>gz_dartsim_vendor</name>
-  <version>6.13.2</version>
+  <!--
+    Note on package versioning:
+    This version only represents the version of the vendor package, not the
+    version of the underlying/vendored package (See <description> for that).
+    To avoid any confusion with the version of the vendor package, the major
+    version here will always be 0.
+  -->
+  <version>0.0.1</version>
   <description>
-    Vendor package for the DART physics engine
+    Vendor package for the DART physics engine v6.13.2
   </description>
 
   <maintainer email="addisu@intrinsic.ai">Addisu Taddese</maintainer>
