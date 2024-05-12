@@ -4,7 +4,17 @@ project(gz_dartsim_vendor)
 find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_vendor_package REQUIRED)
 
+find_package(DART 6 QUIET
+  CONFIG
+  COMPONENTS
+  collision-bullet
+  collision-ode
+  utils
+  utils-urdf
+)
+
 ament_vendor(${PROJECT_NAME}
+  SATISFIED ${DART_FOUND}
   VCS_URL https://github.com/dartsim/dart.git
   VCS_VERSION v6.13.2
   CMAKE_ARGS
@@ -14,6 +24,10 @@ ament_vendor(${PROJECT_NAME}
   GLOBAL_HOOK
   PATCHES patches
 )
+
+message("DART_FOUND: ${DART_FOUND}")
+message("DART_VERSION: ${DART_VERSION}")
+message("DART_INCLUDE_DIRS: ${DART_INCLUDE_DIRS}")
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
