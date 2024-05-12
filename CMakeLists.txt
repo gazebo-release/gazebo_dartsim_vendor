@@ -4,7 +4,7 @@ project(gz_dartsim_vendor)
 find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_vendor_package REQUIRED)
 
-find_package(DART 6 QUIET
+find_package(DART 6.13 QUIET
   CONFIG
   COMPONENTS
   collision-bullet
@@ -28,6 +28,7 @@ ament_vendor(${PROJECT_NAME}
 message("DART_FOUND: ${DART_FOUND}")
 message("DART_VERSION: ${DART_VERSION}")
 message("DART_INCLUDE_DIRS: ${DART_INCLUDE_DIRS}")
+message("DART_LIBRARIES: ${DART_LIBRARIES}")
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
