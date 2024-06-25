@@ -2,8 +2,8 @@
 Changelog for package gz_dartsim_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.1 (2024-06-25)
+------------------
 * Switch to using the liboctomap-dev key for a dependency. (`#5 <https://github.com/gazebo-release/gazebo_dartsim_vendor/issues/5>`_)
   This is now available in rosdep.
 * Contributors: Chris Lalancette
