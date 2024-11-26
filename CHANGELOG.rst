@@ -2,8 +2,8 @@
 Changelog for package gz_dartsim_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.2 (2024-11-26)
+------------------
 * Add check for system installed dartsim (`#6 <https://github.com/gazebo-release/gazebo_dartsim_vendor/issues/6>`_)
   * Check for system installed dart first.
   * Update dart version and add extra debug message
